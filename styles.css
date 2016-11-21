@@ -1,0 +1,79 @@
+/* Sitewide styles */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 68px;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+}
+
+p {
+  font-family: 'Hind', sans-serif;
+  font-size: 18px;
+}
+
+/* Homepage styles*/
+
+.main-header {
+  color: #f9be02;
+  padding: 10px;
+  text-align: center;
+}
+
+.main-header h1 {
+  font-size: 50px;
+  line-height: 14px;
+}
+
+.main-header span {
+  font-size: 40px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.nav ul {
+  background-color: #f9be02;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 20px;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Hind', sans-serif;
+}
+
+.nav a {
+  color: #2d86be;
+  display: block;
+  padding: 20px;
+}
+
+.nav a:hover {
+  color: #fc4a1a;
+}
+
+.home-banner {
+  background-image: url(images/yellow-vw2.jpg);
+  background-size: cover;
+  height: 500px;
+  margin: -20px 0 0 0;
+}
+
+.home-banner h2 {
+  color: #f9be02;
+  padding: 30px;
+}
+
+/* Camp grounds CSS */
