@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Recommended Campground for Campervans</title>
+<link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body background="image1.jpg">
+<title>Homepage</title>
+<form>
+    <div class="form-group">
+        <label for="inputWhere">Where do you want to go?</label>
+        <input type="Location" class="form-control col-lg" id="inputEmail" placeholder="Location">
+    </div>
+    <div class="form-group">
+        <label for="inputPassword">When do you want to go? </label>
+        <input type="when" class="form-control col-lg" id="inputWhen" placeholder="When">
+    </div>
+    </div>
+    <div class="btn-group">
+    <a class="btn btn-lg btn-success" href="recommended_Campgrounds.html" target="_blank">Search</a>
+   
+</div>
+</form>
+</body>
+</html>
+
