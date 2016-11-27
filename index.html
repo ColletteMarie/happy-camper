@@ -2,32 +2,92 @@
   <html>
   <head>
     <title>Happy Camper</title>
+    <link href="./bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Hind" rel="stylesheet">
   </head>
 
   <body>
+    <div class="container-fluid">
 
-    <header class="main-header">
+    <header class="row main-header">
       <h1>Happy Camper</h1>
-      <span>Campervan rental and guide</span>
+
+      <div class="social">
+        <ul>
+          <li><a href="https://www.facebook.com/" alt="Facebook" class="facebook"><span>facebook</span></a></li>
+          <li><a href="https://twitter.com/" alt="Twitter" class="twitter"><span>Twitter</span></a></li>
+          <li><a href="https://www.instagram.com/" alt="Instagram" class="insta"><span>Instagram</span></a></li>
+        </ul>
+      </div>
+
+      <div class="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Shop</a></li>
+        </ul>
+      </div>
 
     </header>
 
-    <div class="nav">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Shop</a></li>
-      </ul>
-    </div>
-
+    <div class="row">
     <div class="home-banner">
       <h2>
         Rent a campervan
       </h2>
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="col-md-6">
+      <div class="news-block">
+
+      <h2>Latest Tweets</h2>
+      <a class="twitter-timeline"  href="https://twitter.com/hashtag/campervan" data-widget-id="802980343338954753">#campervan Tweets</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="news-block">
+
+      <h2>Stay in touch!</h2>
+      <p>
+        Sign up for Happy Camper emails
+      </p>
+      <div class="news-form">
+    <form action="index.html" method="post" class="subscribe-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="exampleInputName" placeholder="Name"/>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"/>
+      </div>
+        <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
+           </form>
+        </div>
+      </div>
+      </div>
+   </div>
+
+    <div class="row footer">
+        <div class="col-md-6">
+          <ul>
+            <li><a href="#about">About Happy Camper</a></li>
+            <li><a href="#terms">Terms</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 text-right">
+          <p>© 2016 Jessica & Collette</p>
+        </div>
+    </div>
+
     </div>
 
   </body>
