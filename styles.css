@@ -50,6 +50,8 @@ a:hover {
   padding-bottom: 30px;
 }
 
+
+
 /* Header styles*/
 
 .main-header {
@@ -171,7 +173,7 @@ a:hover {
 /* Homepage - hero banner */
 
 .home-banner {
-  background-image: url(images/yellow-vw2.jpg);
+  background-image: url(images/blue-vw-beach.jpg);
   background-size: cover;
   height: 500px;
   margin: -20px 0 0 0;
@@ -207,6 +209,10 @@ a:hover {
   padding: 15px;
 }
 
+.search-form {
+  padding:15px;
+  width:25%;
+}
 /* Hire a campervan CSS */
 
 .hire-list {
@@ -224,4 +230,6 @@ a:hover {
   color: #168be5;
 }
 
-/* Camp grounds CSS */
+/* Recommeded Camp grounds CSS */
+.campground { 
+margin: auto;}

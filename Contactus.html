@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Recommended Campground for Campervans</title>
+<link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Hind" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="script.js" type="text/javascript"></script>
+<script src="jquery-3.1.1.min.js" type="text/javascript"></script>
+<script>
+$( document ).ready(function() {
+  $( "#Thanks" ).hide();
+});
+
+</script>
+</head>
+
+<body>
+<div class="container-fluid">
+
+    <header class="row main-header">
+      <span>Happy Camper</span>
+
+      <div class="social">
+        <ul>
+          <li><a href="https://www.facebook.com/" alt="Facebook" class="facebook"><span>facebook</span></a></li>
+          <li><a href="https://twitter.com/" alt="Twitter" class="twitter"><span>Twitter</span></a></li>
+          <li><a href="https://www.instagram.com/" alt="Instagram" class="insta"><span>Instagram</span></a></li>
+        </ul>
+      </div>
+
+      <div class="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Hire a camper</a></li>
+          <li><a href="#">Campsites</a></li>
+        </ul>
+      </div>
+<h1>Get in Touch!</h1>
+<h2 id="Thanks">Thank you</h2>
+
+<form class="form-horizontal" role="form" method="post" action="index.php">
+	<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">Name</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="email" class="col-sm-2 control-label">Email</label>
+		<div class="col-sm-10">
+			<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="message" class="col-sm-2 control-label">Message</label>
+		<div class="col-sm-10">
+			<textarea class="form-control" rows="4" name="message"></textarea>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-10 col-sm-offset-2">
+			<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-10 col-sm-offset-2">
+			<! Will be used to display an alert to the user>
+		</div>
+	</div>
+</form>
+<div class="row footer">
+        <div class="col-md-6">
+          <ul>
+            <li><a href="#about">About Happy Camper</a></li>
+            <li><a href="#terms">Terms</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 text-right">
+          <p>© 2016 Jessica & Collette</p>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
