@@ -9,8 +9,9 @@ body {
 h1 {
   font-family: 'Cabin Sketch', cursive;
   font-weight: 300;
-  font-size: 58px;
-  color: #168be5;
+  font-size: 56px;
+  color: #fff;
+  background-color: #168be5;
 }
 
 h2 {
@@ -58,8 +59,10 @@ a:hover {
   position: relative;
 }
 
-.main-header h1 {
+.main-header span {
   font-size: 68px;
+  font-family: 'Cabin Sketch', cursive;
+  font-weight: 300;
 }
 
 .social {
@@ -204,5 +207,21 @@ a:hover {
   padding: 15px;
 }
 
+/* Hire a campervan CSS */
+
+.hire-list {
+  margin: auto;
+}
+
+.rent-guide {
+  margin: auto;
+}
+
+.panel-title {
+  ont-family: 'Hind', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #168be5;
+}
 
 /* Camp grounds CSS */
