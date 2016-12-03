@@ -50,9 +50,13 @@ a:hover {
   padding-bottom: 30px;
 }
 
+<<<<<<< HEAD
 img {
   display: block;
 }
+=======
+
+>>>>>>> origin/master
 
 /* Header styles*/
 
@@ -175,7 +179,7 @@ img {
 /* Homepage - hero banner */
 
 .home-banner {
-  background-image: url(images/yellow-vw2.jpg);
+  background-image: url(images/blue-vw-beach.jpg);
   background-size: cover;
   height: 500px;
   margin: -20px 0 0 0;
@@ -211,6 +215,10 @@ img {
   padding: 15px;
 }
 
+.search-form {
+  padding:15px;
+  width:25%;
+}
 /* Hire a campervan CSS */
 
 .hire-list {
@@ -233,4 +241,6 @@ img {
   color: #168be5;
 }
 
-/* Camp grounds CSS */
+/* Recommeded Camp grounds CSS */
+.campground { 
+margin: auto;}
