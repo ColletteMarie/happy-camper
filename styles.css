@@ -50,6 +50,10 @@ a:hover {
   padding-bottom: 30px;
 }
 
+img {
+  display: block;
+}
+
 /* Header styles*/
 
 .main-header {
@@ -211,10 +215,15 @@ a:hover {
 
 .hire-list {
   margin: auto;
+  padding: 30px;
+  text-align: left;
+
 }
 
 .rent-guide {
   margin: auto;
+  width: 94%;
+  padding: 30px;
 }
 
 .panel-title {
