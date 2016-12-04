@@ -1,9 +1,13 @@
 /* Sitewide styles */
+html {
+  height: 100%;
+}
 
 body {
   margin: 0;
   padding: 0;
   color: #374543;
+  height: 100%;
 }
 
 h1 {
@@ -43,6 +47,7 @@ a:hover {
 
 .container-fluid {
   max-width: 1600px;
+  height: 100%;
 }
 
 .row {
@@ -50,13 +55,9 @@ a:hover {
   padding-bottom: 30px;
 }
 
-<<<<<<< HEAD
 img {
   display: block;
 }
-=======
-
->>>>>>> origin/master
 
 /* Header styles*/
 
@@ -242,5 +243,21 @@ img {
 }
 
 /* Recommeded Camp grounds CSS */
-.campground { 
+
+
+/* Contact us CSS */
+
+.contact-form {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 30px;
+}
+
+.thanks {
+  display: none;
+}
+
+
+
+.campground {
 margin: auto;}
