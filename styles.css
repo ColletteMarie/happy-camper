@@ -13,9 +13,10 @@ body {
 h1 {
   font-family: 'Cabin Sketch', cursive;
   font-weight: 300;
-  font-size: 56px;
+  font-size: 52px;
   color: #fff;
   background-color: #168be5;
+  padding: 10px;
 }
 
 h2 {
@@ -47,7 +48,8 @@ a:hover {
 
 .container-fluid {
   max-width: 1600px;
-  height: 100%;
+  padding-bottom: 80px;
+  min-height: 100%;
 }
 
 .row {
@@ -57,6 +59,10 @@ a:hover {
 
 img {
   display: block;
+}
+
+.row.page-title {
+  padding: 0;
 }
 
 /* Header styles*/
@@ -148,6 +154,9 @@ img {
 .footer {
   padding-top: 20px !important;
   background-color: #E7F3FC;
+  clear: both;
+  height: 80px;
+  margin-top: -80px;
 }
 
 .footer ul {
@@ -183,7 +192,6 @@ img {
   background-image: url(images/blue-vw-beach.jpg);
   background-size: cover;
   height: 500px;
-  margin: -20px 0 0 0;
 }
 
 .home-banner h2 {
@@ -222,24 +230,119 @@ img {
 }
 /* Hire a campervan CSS */
 
-.hire-list {
-  margin: auto;
-  padding: 30px;
+.hire-row {
+  margin: 0 auto;
+  padding:  50px 50px 0 50px;
   text-align: left;
+}
 
+.hire-row img {
+  width: 100%;
+}
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: #168be5;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 3em;
+  text-align: center;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 60px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-40px,0,0);
+  transform: translate3d(-40px,0,0);
+}
+
+.hovereffect h3 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 32px;
+  position: relative;
+  background-color: transparent;
+  padding: 15% 0 10px 0;
+  text-align: center;
+}
+
+.hovereffect .overlay:before {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  border: 1px solid #fff;
+  content: '';
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-20px,0,0);
+  transform: translate3d(-20px,0,0);
+}
+
+.hovereffect a, .hovereffect p {
+  color: #fff;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+}
+
+.hovereffect:hover img {
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect:hover .overlay:before,
+.hovereffect:hover a, .hovereffect:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hire-row p {
+  margin-top: 20px;
 }
 
 .rent-guide {
   margin: auto;
-  width: 94%;
-  padding: 30px;
+  padding: 50px;
 }
 
 .panel-title {
-  ont-family: 'Hind', sans-serif;
+  font-family: 'Hind', sans-serif;
   font-size: 22px;
   font-weight: 400;
   color: #168be5;
+}
+
+.panel-body ul {
+  font-family: 'Hind', sans-serif;
+  font-size: 18px;
 }
 
 /* Recommeded Camp grounds CSS */
@@ -255,9 +358,28 @@ img {
 
 .thanks {
   display: none;
+  text-align: center;
 }
 
+.camper-gif {
+  min-height: 261px;
+  background-image: url(images/giphy.gif);
+  background-size: 480px 261px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
+.camper-gif p {
+  font-size: 22px;
+  position: relative;
+  padding: 15px 0 10px 0;
+}
+
+/*
+.thanks img {
+  margin: 0 auto;
+}*/
 
 .campground {
-margin: auto;}
+margin: auto;
+}
