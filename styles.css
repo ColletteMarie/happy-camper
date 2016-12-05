@@ -221,12 +221,20 @@ img {
 }
 
 .news-form {
-  padding: 15px;
+  padding: 25px;
 }
 
 .search-form {
-  padding:15px;
+  padding:25px;
   width:25%;
+}
+
+.btn-group {
+  padding:25px;
+}
+
+.inputWhere {
+  color:#fff;
 }
 /* Hire a campervan CSS */
 
